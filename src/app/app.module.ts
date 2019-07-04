@@ -6,6 +6,7 @@ import { Scene2Module } from './scene2/scene2.module';
 
 import { FormsModule } from '@angular/forms';
 import { Scene3Module } from './scene3/scene3.module';
+import { Scene4Module } from './scene4/scene4.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Scene3Module } from './scene3/scene3.module';
     AppRoutingModule,
     Scene2Module,
     Scene3Module,
-    FormsModule
+    FormsModule,
+    Scene4Module
   ],
   providers: [],
   bootstrap: [AppComponent]
