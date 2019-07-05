@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { Scene3Module } from './scene3/scene3.module';
 import { Scene4Module } from './scene4/scene4.module';
 import { Scene5Module } from './scene5/scene5.module';
+import { Scene6Module } from './scene6/scene6.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { Scene5Module } from './scene5/scene5.module';
     Scene3Module,
     FormsModule,
     Scene4Module,
-    Scene5Module
+    Scene5Module,
+    Scene6Module
   ],
   providers: [],
   bootstrap: [AppComponent]
